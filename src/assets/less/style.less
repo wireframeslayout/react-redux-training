@@ -1,0 +1,23 @@
+@import '../../../node_modules/bootstrap/less/bootstrap.less';
+
+/**
+ * TODO
+ */
+.todo {
+  &-list {
+    ul {
+      list-style: none;
+      list-style-position: outside;
+      margin: 0;
+      padding: 0;
+    }
+    &-item {
+      padding: 10px 0;
+      border-bottom: 1px solid #ccc;
+      input[type="checkbox"] {
+        margin-right: 10px;
+      }
+      overflow: hidden
+    }
+  }
+}
